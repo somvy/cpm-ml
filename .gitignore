@@ -4,3 +4,4 @@ __pycache__
 6-cnn/data
 bootcamp
 7-architectures/data
+*.onnx

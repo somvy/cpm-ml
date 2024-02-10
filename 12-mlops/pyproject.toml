@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "12-mlops"
+version = "0.1.0"
+description = "demo of mlops"
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+wandb = "^0.16.3"
+onnxruntime = "^1.17.0"
+tokenizers = "^0.15.1"
+fastapi = "^0.109.2"
+uvicorn = "^0.27.0.post1"
+pytest = "^8.0.0"
+numpy = "^1.26.4"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
